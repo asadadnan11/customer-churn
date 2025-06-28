@@ -1,4 +1,5 @@
 # 📊 Telecom Customer Churn Prediction
+### *By Asad Adnan*
 
 > **A comprehensive machine learning solution for predicting customer churn and optimizing retention strategies in telecommunications.**
 
@@ -84,8 +85,8 @@ pip install jupyter==1.0.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/telecom-churn-prediction.git
-cd telecom-churn-prediction
+git clone https://github.com/asadadnan11/customer-churn.git
+cd customer-churn
 
 # Install dependencies
 pip install -r requirements.txt
@@ -141,24 +142,45 @@ pip install -r requirements.txt
 ### **1. Churn Distribution Analysis**
 *Comprehensive overview of churn patterns across customer segments*
 
-**Features**: Overall churn distribution, contract type analysis, tenure groups, monthly charges impact, internet service correlation, and payment method influence.
+![Churn Distribution Analysis](images/churn_distribution_analysis.png)
+
+**Key Insights**: 
+- Overall churn rate of ~40% with clear patterns across different customer segments
+- Month-to-month contracts show significantly higher churn rates (50%+) compared to longer-term contracts
+- New customers (0-12 months tenure) exhibit the highest churn risk
+- Higher monthly charges correlate with increased churn probability
 
 ### **2. ROC Curve Comparison**
 *Model performance visualization comparing Logistic Regression vs XGBoost*
 
-**Highlights**: Clear performance improvement demonstration with AUC metrics and model comparison.
+![ROC Curve Comparison](images/roc_curve_comparison.png)
 
-### **3. Feature Importance Dashboard**
-*SHAP-based feature importance analysis*
+**Performance Highlights**: 
+- XGBoost model achieves AUC of 0.87+ vs Logistic Regression's 0.78+
+- Clear performance improvement of 10-15% over baseline model
+- Both models significantly outperform random classification
 
-**Insights**: Interactive visualization showing which customer attributes most strongly predict churn behavior.
+### **3. Feature Importance Analysis**
+*XGBoost-based feature importance revealing key churn drivers*
+
+![Feature Importance](images/feature_importance.png)
+
+**Critical Findings**: 
+- Contract type emerges as the most predictive feature
+- Tenure and monthly charges are strong secondary indicators
+- Payment method and internet service type significantly influence churn probability
+- Demographic factors (age, gender) have relatively lower impact
 
 ### **4. Business Impact Analysis**
-*Revenue impact simulation and ROI calculations*
+*Revenue impact simulation and ROI calculations for targeted retention*
 
-**Components**: Churn probability distribution, revenue at risk analysis, potential savings calculation, and intervention cost-benefit breakdown.
+![Business Impact Analysis](images/business_impact_analysis.png)
 
-*Note: Actual visualizations are generated when running the notebook. The above descriptions represent the key charts produced by the analysis.*
+**Business Value**: 
+- Clear identification of high-risk customer segments (top 10% probability threshold)
+- Quantified revenue at risk and potential savings from targeted interventions
+- Demonstrates significant ROI potential for retention strategies
+- Actionable insights for resource allocation and campaign targeting
 
 ---
 
@@ -304,9 +326,9 @@ If you use this project in your research or business applications, please cite:
 ```bibtex
 @misc{telecom_churn_prediction,
   title={Telecom Customer Churn Prediction: A Comprehensive ML Approach},
-  author={Your Name},
+  author={Asad Adnan},
   year={2024},
-  howpublished={\url{https://github.com/yourusername/telecom-churn-prediction}}
+  howpublished={\url{https://github.com/asadadnan11/customer-churn}}
 }
 ```
 
@@ -323,9 +345,9 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## 📞 Contact & Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/telecom-churn-prediction/issues)
-- **Email**: your.email@domain.com
-- **LinkedIn**: [Your Professional Profile](https://linkedin.com/in/yourprofile)
+- **Issues**: [GitHub Issues](https://github.com/asadadnan11/customer-churn/issues)
+- **LinkedIn**: [Asad Adnan](https://linkedin.com/in/asadadnan11)
+- **GitHub**: [@asadadnan11](https://github.com/asadadnan11)
 
 ---
 
