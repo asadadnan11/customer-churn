@@ -15,7 +15,7 @@ This project implements an end-to-end machine learning pipeline for predicting c
 **Business Context**: Customer churn costs telecom companies billions annually. This solution enables data-driven retention decisions by predicting which customers are most likely to leave and calculating the ROI of intervention strategies.
 
 **Key Deliverables**:
-- High-performance churn prediction models (AUC: 0.87)
+- High-performance churn prediction models (AUC: 0.870)
 - Comprehensive business impact analysis with ROI calculations
 - Dashboard-ready dataset for real-time monitoring
 - Actionable insights for customer retention strategies
@@ -53,7 +53,7 @@ This project implements an end-to-end machine learning pipeline for predicting c
 
 ### **Technical Highlights**
 
-- **Model Performance**: 10.3% AUC improvement over baseline (final AUC: 0.87)
+- **Model Performance**: 10.3% AUC improvement over baseline (final AUC: 0.870)
 - **Professional Code**: Clean, documented, production-ready implementation
 - **Comprehensive Testing**: Cross-validation and robust evaluation metrics
 - **Scalable Architecture**: Designed for real-world deployment scenarios
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 
 **Key Insights**: 
 - Overall churn rate of ~40% with clear patterns across different customer segments
-- Month-to-month contracts show significantly higher churn rates (50%+) compared to longer-term contracts
+- Month-to-month contracts show significantly higher churn rates (45%) compared to longer-term contracts
 - New customers (0-12 months tenure) exhibit the highest churn risk
 - Higher monthly charges correlate with increased churn probability
 
@@ -156,7 +156,7 @@ pip install -r requirements.txt
 ![ROC Curve Comparison](images/roc_curve_comparison.png)
 
 **Performance Highlights**: 
-- XGBoost model achieves AUC of 0.87 vs Logistic Regression's 0.789
+- XGBoost model achieves AUC of 0.870 vs Logistic Regression's 0.789
 - Clear performance improvement of 10.3% over baseline model
 - Both models significantly outperform random classification
 
@@ -166,10 +166,9 @@ pip install -r requirements.txt
 ![Feature Importance](images/feature_importance.png)
 
 **Critical Findings**: 
-- Contract type emerges as the most predictive feature
-- Tenure and monthly charges are strong secondary indicators
-- Payment method and internet service type significantly influence churn probability
-- Demographic factors (age, gender) have relatively lower impact
+- Contract type emerges as the most predictive feature (highest importance)
+- Tenure, monthly charges, and payment method are strong secondary indicators
+- Demographic factors (age, gender) have relatively lower predictive power
 
 ### **4. Business Impact Analysis**
 *Revenue impact simulation and ROI calculations for targeted retention*
@@ -218,12 +217,11 @@ pip install -r requirements.txt
 1. **Contract Type**: Month-to-month customers churn 3x more than two-year contracts (45% vs 15%)
 2. **Early Tenure Risk**: First 6 months show 40% higher churn probability
 3. **Price Sensitivity**: Charges >$90 increase churn risk by 15%
-4. **Service Gap**: Customers without tech support are 8% more likely to churn
 
 ### **Strategic Action Plan**
 
 #### **🎯 Immediate Impact**
-- **Target Top 10%**: Focus retention budget on highest-risk customers (740% ROI)
+- **Target Top 10%**: Focus retention budget on highest-risk customers (740-980% ROI)
 - **Contract Migration**: Incentivize month-to-month customers toward annual plans
 - **Early Intervention**: 90-day onboarding program for new customers
 
@@ -233,9 +231,9 @@ pip install -r requirements.txt
 - **Payment Optimization**: Migrate electronic check users to stable methods
 
 ### **Business Impact**
-- **Revenue Protection**: $4.9M annual benefit through targeted retention
-- **Churn Reduction**: 10-15% decrease via data-driven interventions
+- **Churn Reduction**: 10.3% decrease via data-driven interventions
 - **Customer LTV**: Extended relationships through proactive engagement
+- **Operational Efficiency**: Automated risk scoring for 10,000+ customers
 
 ---
 
