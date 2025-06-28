@@ -312,9 +312,11 @@ If you use this project in your research or business applications, please cite:
 ```bibtex
 @misc{telecom_churn_prediction,
   title={Telecom Customer Churn Prediction: A Comprehensive ML Approach},
-  author={Asad Adnan},
+  author={Adnan, Asad},
   year={2024},
-  howpublished={\url{https://github.com/asadadnan11/customer-churn}}
+  howpublished={\url{https://github.com/asadadnan11/customer-churn}},
+  note={Machine Learning project implementing XGBoost for customer retention analysis},
+  keywords={machine learning, churn prediction, telecommunications, XGBoost, customer analytics}
 }
 ```
 
