@@ -145,10 +145,10 @@ pip install -r requirements.txt
 ![Churn Distribution Analysis](images/churn_distribution_analysis.png)
 
 **Key Insights**: 
-- Overall churn rate of ~40% with clear patterns across different customer segments
-- Month-to-month contracts show significantly higher churn rates (45%) compared to longer-term contracts
-- New customers (0-12 months tenure) exhibit the highest churn risk
-- Higher monthly charges correlate with increased churn probability
+- Overall churn rate of ~40% with distinct patterns across customer segments
+- Fiber internet customers show higher churn than DSL or no-internet customers
+- Electronic check payment method correlates with increased churn risk
+- Customer age and gender show minimal predictive impact
 
 ### **2. ROC Curve Comparison**
 *Model performance visualization comparing Logistic Regression vs XGBoost*
@@ -176,10 +176,10 @@ pip install -r requirements.txt
 ![Business Impact Analysis](images/business_impact_analysis.png)
 
 **Business Value**: 
-- Clear identification of high-risk customer segments (top 10% probability threshold)
-- Quantified revenue at risk and potential savings from targeted interventions
-- Demonstrates significant ROI potential for retention strategies
-- Actionable insights for resource allocation and campaign targeting
+- Probability threshold visualization for easy risk segmentation
+- Revenue impact modeling with intervention cost analysis  
+- ROI projections for retention campaign planning
+- Data-driven prioritization framework for customer outreach
 
 ---
 
@@ -251,11 +251,7 @@ The model identifies customers with high churn probability for targeted retentio
 | CUST_005463 | 77.9% | $85.60 | Month-to-Month | 6 | High | 6 |
 | CUST_008127 | 75.3% | $98.40 | Month-to-Month | 2 | High | 7 |
 
-### **Common Patterns in High-Risk Customers**
-- **Contract Type**: 85% are month-to-month subscribers
-- **Tenure**: 78% have been customers for <6 months
-- **Charges**: 68% pay >$85/month
-- **Payment Method**: 52% use electronic check payment
+*Analysis reveals 85% of high-risk customers are month-to-month subscribers, 78% have tenure <6 months, 68% pay >$85/month, and 52% use electronic check payment.*
 
 ---
 
