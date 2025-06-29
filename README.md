@@ -6,7 +6,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-Latest-green.svg)](https://xgboost.readthedocs.io/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 🎯 Project Overview
 
@@ -295,8 +294,8 @@ graph TD
 
 ## 📄 License & Acknowledgments
 
-### **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### **Open Source**
+This project is open source and available for educational and professional use.
 
 ### **Acknowledgments**
 
@@ -322,14 +321,9 @@ If you use this project in your research or business applications, please cite:
 
 ---
 
-## 🤝 Contributing
+## 🤝 Connect & Collaborate
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
-
-- Code style and standards
-- Issue reporting procedures
-- Pull request process
-- Development setup
+Interested in discussing this project or exploring collaboration opportunities? Feel free to reach out!
 
 ## 📞 Contact & Support
 
