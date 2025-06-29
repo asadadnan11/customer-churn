@@ -1,4 +1,4 @@
-# 📊 Telecom Customer Churn Prediction
+# Telecom Customer Churn Prediction
 ### *By Asad Adnan*
 
 > **A comprehensive machine learning solution for predicting customer churn and optimizing retention strategies in telecommunications.**
@@ -7,7 +7,7 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-Latest-green.svg)](https://xgboost.readthedocs.io/)
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements an end-to-end machine learning pipeline for predicting customer churn in the telecommunications industry. Using advanced algorithms and comprehensive data analysis, it identifies high-risk customers and quantifies the business impact of proactive retention strategies.
 
@@ -21,34 +21,34 @@ This project implements an end-to-end machine learning pipeline for predicting c
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Project Features](#-project-features)
-- [Installation & Requirements](#-installation--requirements)
-- [How to Run](#-how-to-run)
-- [Key Visualizations](#-key-visualizations)
-- [Results Summary](#-results-summary)
-- [Business Insights](#-business-insights--recommendations)
-- [Example High-Risk Customers](#-example-high-risk-customers)
-- [Project Architecture](#-project-architecture)
-- [License & Acknowledgments](#-license--acknowledgments)
+- [Project Features](#project-features)
+- [Installation & Requirements](#installation--requirements)
+- [How to Run](#how-to-run)
+- [Key Visualizations](#key-visualizations)
+- [Results Summary](#results-summary)
+- [Business Insights](#business-insights--recommendations)
+- [Example High-Risk Customers](#example-high-risk-customers)
+- [Project Architecture](#project-architecture)
+- [License & Acknowledgments](#license--acknowledgments)
 
 ---
 
-## 🚀 Project Features
+## Project Features
 
 ### **Core Components**
 
-- **🔢 Synthetic Data Generation**: Realistic 10,000-customer dataset with 12+ features including demographics, services, and billing information
-- **🧹 Advanced Data Preprocessing**: Comprehensive pipeline with missing value handling, categorical encoding, and feature scaling
-- **📊 Baseline Analysis**: Statistical churn analysis across customer segments and contract types
-- **🎨 Exploratory Data Analysis**: Professional visualizations revealing churn patterns and correlations
-- **🤖 Machine Learning Models**: 
+- **Synthetic Data Generation**: Realistic 10,000-customer dataset with 12+ features including demographics, services, and billing information
+- **Advanced Data Preprocessing**: Comprehensive pipeline with missing value handling, categorical encoding, and feature scaling
+- **Baseline Analysis**: Statistical churn analysis across customer segments and contract types
+- **Exploratory Data Analysis**: Professional visualizations revealing churn patterns and correlations
+- **Machine Learning Models**: 
   - Logistic Regression baseline model
   - XGBoost enhanced model with hyperparameter tuning
-- **🔍 Feature Importance Analysis**: SHAP values and built-in importance metrics for model interpretability
-- **💰 Business Impact Simulation**: ROI calculations for retention strategies targeting high-risk customers
-- **📈 Dashboard Export**: Production-ready CSV with risk scores and business metrics
+- **Feature Importance Analysis**: SHAP values and built-in importance metrics for model interpretability
+- **Business Impact Simulation**: ROI calculations for retention strategies targeting high-risk customers
+- **Dashboard Export**: Production-ready CSV with risk scores and business metrics
 
 ### **Technical Highlights**
 
@@ -59,7 +59,7 @@ This project implements an end-to-end machine learning pipeline for predicting c
 
 ---
 
-## 🛠 Installation & Requirements
+## Installation & Requirements
 
 ### **Prerequisites**
 
@@ -107,7 +107,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏃‍♂️ How to Run
+## How to Run
 
 ### **Step-by-Step Execution**
 
@@ -136,7 +136,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Key Visualizations
+## Key Visualizations
 
 ### **1. Churn Distribution Analysis**
 *Comprehensive overview of churn patterns across customer segments*
@@ -182,7 +182,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 ### **Model Performance Metrics**
 
@@ -209,7 +209,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 Business Insights & Recommendations
+## Business Insights & Recommendations
 
 ### **Critical Churn Drivers Identified**
 
@@ -219,12 +219,12 @@ pip install -r requirements.txt
 
 ### **Strategic Action Plan**
 
-#### **🎯 Immediate Impact**
+#### **Immediate Impact**
 - **Target Top 10%**: Focus retention budget on highest-risk customers (740-980% ROI)
 - **Contract Migration**: Incentivize month-to-month customers toward annual plans
 - **Early Intervention**: 90-day onboarding program for new customers
 
-#### **🔄 Operational Excellence**
+#### **Operational Excellence**
 - **Predictive Scoring**: Deploy monthly churn probability updates
 - **Service Bundling**: Promote tech support to high-risk segments
 - **Payment Optimization**: Migrate electronic check users to stable methods
@@ -236,7 +236,7 @@ pip install -r requirements.txt
 
 ---
 
-## 👥 Example High-Risk Customers
+## Example High-Risk Customers
 
 The model identifies customers with high churn probability for targeted retention efforts:
 
@@ -254,7 +254,7 @@ The model identifies customers with high churn probability for targeted retentio
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```mermaid
 graph TD
@@ -292,7 +292,7 @@ graph TD
 
 ---
 
-## 📄 License & Acknowledgments
+## License & Acknowledgments
 
 ### **Open Source**
 This project is open source and available for educational and professional use.
@@ -321,11 +321,11 @@ If you use this project in your research or business applications, please cite:
 
 ---
 
-## 🤝 Connect & Collaborate
+## Connect & Collaborate
 
 Interested in discussing this project or exploring collaboration opportunities? Feel free to reach out!
 
-## 📞 Contact & Support
+## Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/asadadnan11/customer-churn/issues)
 - **LinkedIn**: [Asad Adnan](https://linkedin.com/in/asadadnan11)
@@ -333,4 +333,4 @@ Interested in discussing this project or exploring collaboration opportunities? 
 
 ---
 
-**⭐ If this project helps your business or research, please give it a star on GitHub!** 
+**If this project helps your business or research, please give it a star on GitHub!** 
